@@ -15,7 +15,7 @@ footer  #ffccff*/
 /*サイズ*/
 header{
     width:1000px;/*横*/
-    height: 100px;/*高さ*/
+    height: 20px;/*高さ*/
     background-color:#ffcccc;
 }
 
@@ -23,7 +23,7 @@ header{
 #main {
   width: 700px;
   height: 500px;
-  background-color: #add8e6; /* ライトブルー */
+  background-color: #ccffcc;
   float: left;/*要素を左に寄せる*/
 }
 
@@ -31,13 +31,13 @@ header{
 #menu{
     width:300px;
     height: 500px;
-    background-color:#ccffcc;
+    background-color:#ccccff;
     float: left;/*縦に3つ並んでいた要素が左から順番に横並びになります。*/
 }
 
 footer{
     width:1000px;
-    height: 100px;
+    height: 20px;
   background-color: #ffccff; /* ライトグリーン */
   clear: both;/*「float」を指定した全ての要素の高さを認識して「margin-top（要素の上のスペース）」を自動調整*/
 }
