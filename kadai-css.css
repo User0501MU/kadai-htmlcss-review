@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/*<link rel="stylesheet" href="kadai.css">をHTMLに記述*/
+
+/*「要素と背景色の対応」の表を参照
+ブラウザのウィンドウを縮小しても、#mainが700px
+#menuは300pxで表示
+header、footerの横幅は、1000px
+
+要素  背景色
+header  #ffcccc
+#main   #ccffcc
+#menu   #ccccff
+footer  #ffccff*/
+
+/*サイズ*/
+header{
+    width:1000px;/*横*/
+    height: 100px;/*高さ*/
+    background-color:#ffcccc;
+}
+
+/*メイン*/
+#main {
+  width: 700px;
+  height: 500px;
+  background-color: #add8e6; /* ライトブルー */
+  float: left;/*要素を左に寄せる*/
+}
+
+/*メニュー*/
+#menu{
+    width:300px;
+    height: 500px;
+    background-color:#ccffcc;
+    float: left;/*縦に3つ並んでいた要素が左から順番に横並びになります。*/
+}
+
+footer{
+    width:1000px;
+    height: 100px;
+  background-color: #ffccff; /* ライトグリーン */
+  clear: both;/*「float」を指定した全ての要素の高さを認識して「margin-top（要素の上のスペース）」を自動調整*/
+}
+
+/* セクション：メインビジュアルを整える */
