@@ -12,6 +12,15 @@ header  #ffcccc
 #menu   #ccccff
 footer  #ffccff*/
 
+/*画面の横幅を縮める際に、wrapperで要素の頭に記述することで幅の固定が可能になるが、
+<wrapper> タグは実際にはHTML5の標準ではなく、代わりに <div> 要素を使用する必要があります。
+そのため、<div> 要素を使って、wrapperの役割を果たすコンテナを作成することができます。*/
+
+.container {
+  width: 1000px; /*ブラウザのウィンドウを縮小しても、コンテンツが1000pxで固定される*/
+  /*margin: 0 auto;*/ /*水平方向に中央揃え*/
+}
+
 /*サイズ*/
 header{
     width:1000px;/*横*/
@@ -41,5 +50,4 @@ footer{
   background-color: #ffccff; /* ライトグリーン */
   clear: both;/*「float」を指定した全ての要素の高さを認識して「margin-top（要素の上のスペース）」を自動調整*/
 }
-
 /* セクション：メインビジュアルを整える */
